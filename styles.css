@@ -1,0 +1,44 @@
+body {
+    background: lightgrey;
+    justify-content: center;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+header h1 {
+    margin: 0;
+}
+.post {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+.post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    color: grey;
+}
+.post h2, .post p {
+    font-family: 'Anuphan', sans-serif;
+    padding: 10px;
+    margin: 0; 
+}
+.post img {
+    width: 100%;
+}
+
